@@ -1700,11 +1700,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\David\\Desktop\\App_Prog\\MakingButtonDoSomething\\MakingButtonDoSomething\\MakingButtonDoSomething.csproj",
+      "projectUniqueName": "C:\\Users\\David\\App_Prog\\MakingButtonDoSomething\\MakingButtonDoSomething\\MakingButtonDoSomething.csproj",
       "projectName": "MakingButtonDoSomething",
-      "projectPath": "C:\\Users\\David\\Desktop\\App_Prog\\MakingButtonDoSomething\\MakingButtonDoSomething\\MakingButtonDoSomething.csproj",
+      "projectPath": "C:\\Users\\David\\App_Prog\\MakingButtonDoSomething\\MakingButtonDoSomething\\MakingButtonDoSomething.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\David\\Desktop\\App_Prog\\MakingButtonDoSomething\\MakingButtonDoSomething\\obj\\",
+      "outputPath": "C:\\Users\\David\\App_Prog\\MakingButtonDoSomething\\MakingButtonDoSomething\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
