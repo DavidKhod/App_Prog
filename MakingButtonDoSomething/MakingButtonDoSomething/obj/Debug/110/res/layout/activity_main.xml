@@ -16,13 +16,14 @@
             android:layout_width="200px"
             android:layout_height="100px"
             android:text="On"
-            android:id="@+id/On"/>
+            android:id="@+id/on"/>
         <Button
             android:layout_width="200px"
             android:layout_height="100px"
             android:text="Off"
-            android:id="@+id/Off"/>
+            android:id="@+id/off"/>
         </LinearLayout>
+
      <TextView
         android:layout_width="match_parent"
         android:layout_height="150px"
@@ -30,5 +31,21 @@
         android:text="0"
         android:id="@+id/txtv1"/>
 
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="100px"
+    android:orientation="horizontal"
+        android:gravity="center";
+        <Button
+            android:layout_width="200px"
+            android:layout_height="100px"
+            android:text="+"
+            android:id="@+id/up"/>
+        <Button
+            android:layout_width="200px"
+            android:layout_height="100px"
+            android:text="-"
+            android:id="@+id/less"/>
+    </LinearLayout>
 </LinearLayout>
 
