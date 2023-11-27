@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "oxmEn3D34CBmQQm3WgEBxQb/l77yHd1NfG4PTbOF8MitgUWstPbGgPjar+XeQf23PZjBXpErzDK72OhYsqVX1Q==",
+=======
+  "dgSpecHash": "rbOKw2pNNInJsAs5dh/0WZHrHRSLo8O3glzf2VbljxVoWfrgX8HmGSY32li9dKi0mCsnaJ9ThN5KKH/sJuuw/g==",
+>>>>>>> 7a6933804fb37d51baf9f6d335b916f8633a412a
   "success": true,
   "projectFilePath": "C:\\Users\\David\\App_Prog\\MakingButtonDoSomething\\MakingButtonDoSomething\\MakingButtonDoSomething.csproj",
   "expectedPackageFiles": [
