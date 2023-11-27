@@ -14,7 +14,7 @@ namespace MakingButtonDoSomething
         Button plus;
         Button min;
         TextView txtview1;
-        int cnt = 0;
+        int tempValue = 0;
         bool onOff = false;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -22,11 +22,7 @@ namespace MakingButtonDoSomething
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
-            off = FindViewById<Button>(Resource.Id.off);
-            on = FindViewById<Button>(Resource.Id.on);
-            plus = FindViewById<Button>(Resource.Id.up);
-            min = FindViewById<Button>(Resource.Id.less);
-            
+            InitControl();
 
             txtview1 = FindViewById<TextView>(Resource.Id.txtv1);
             on.Click += On_Click;
@@ -35,34 +31,42 @@ namespace MakingButtonDoSomething
             min.Click += Min_Click;
         }
 
+        void InitControl()
+        {
+            off = FindViewById<Button>(Resource.Id.off);
+            on = FindViewById<Button>(Resource.Id.on);
+            plus = FindViewById<Button>(Resource.Id.up);
+            min = FindViewById<Button>(Resource.Id.less);
+        }
+
         private void Min_Click(object sender, System.EventArgs e)
         {
-            if (onOff)
+            if (onOff && tempValue < 36 && tempValue > 16)
             {
-                cnt--;
-                txtview1.Text = cnt.ToString();
+                tempValue--;
+                txtview1.Text = tempValue.ToString();
             }
         }
 
         private void Plus_Click(object sender, System.EventArgs e)
         {
-            if (onOff)
+            if (onOff && tempValue < 36 && tempValue > 16)
             {
-                cnt++;
-                txtview1.Text = cnt.ToString();
+                tempValue++;
+                txtview1.Text = tempValue.ToString();
             }
         }
 
         private void Off_Click(object sender, System.EventArgs e)
         {
             onOff = false;
-            txtview1.Text = cnt.ToString();
+            txtview1.Text = "";
         }
 
         private void On_Click(object sender, System.EventArgs e)
         {
             onOff = true;
-            txtview1.Text = cnt.ToString();
+            txtview1.Text =tempValue.ToString();
         }
 
 
