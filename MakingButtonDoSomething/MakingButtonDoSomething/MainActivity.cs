@@ -14,7 +14,7 @@ namespace MakingButtonDoSomething
         Button plus;
         Button min;
         TextView txtview1;
-        int tempValue = 0;
+        int tempValue = 16;
         bool onOff = false;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -24,7 +24,7 @@ namespace MakingButtonDoSomething
             SetContentView(Resource.Layout.activity_main);
             InitControl();
 
-            txtview1 = FindViewById<TextView>(Resource.Id.txtv1);
+            
             on.Click += On_Click;
             off.Click += Off_Click;
             plus.Click += Plus_Click;
@@ -37,11 +37,13 @@ namespace MakingButtonDoSomething
             on = FindViewById<Button>(Resource.Id.on);
             plus = FindViewById<Button>(Resource.Id.up);
             min = FindViewById<Button>(Resource.Id.less);
+            txtview1 = FindViewById<TextView>(Resource.Id.txtv1);
+            txtview1.Text = "";
         }
 
         private void Min_Click(object sender, System.EventArgs e)
         {
-            if (onOff && tempValue < 36 && tempValue > 16)
+            if (onOff && tempValue >= 16)
             {
                 tempValue--;
                 txtview1.Text = tempValue.ToString();
@@ -50,7 +52,7 @@ namespace MakingButtonDoSomething
 
         private void Plus_Click(object sender, System.EventArgs e)
         {
-            if (onOff && tempValue < 36 && tempValue > 16)
+            if (onOff && tempValue <= 31)
             {
                 tempValue++;
                 txtview1.Text = tempValue.ToString();
@@ -66,7 +68,7 @@ namespace MakingButtonDoSomething
         private void On_Click(object sender, System.EventArgs e)
         {
             onOff = true;
-            txtview1.Text =tempValue.ToString();
+            txtview1.Text = tempValue.ToString();
         }
 
 

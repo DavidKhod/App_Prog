@@ -607,4 +607,3 @@ C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debu
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\MakingButtonDoSomething.csproj.AssemblyReference.cache
