@@ -359,6 +359,9 @@ C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debu
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\res\mipmap-xxxhdpi\ic_launcher.png
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\res\mipmap-xxxhdpi\ic_launcher_foreground.png
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\res\mipmap-xxxhdpi\ic_launcher_round.png
+C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\res\layout\layout1.xml
+C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\res\drawable\sunforac.png
+C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\res\drawable\snowflakeforac.png
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\uploadflags.txt
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\resolvedassemblies.hash
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\android\assets\Java.Interop.dll
@@ -507,6 +510,7 @@ C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debu
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\android\src\crc64396a3fe5f8138e3f\CustomTabsServiceConnectionImpl.java
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\android\src\crc64396a3fe5f8138e3f\KeepAliveService.java
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\android\src\crc6473bee1f28f66e19e\MainActivity.java
+C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\android\src\crc6473bee1f28f66e19e\ScreenTwoActivity.java
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\android\src\crc64a0e0a82d0db9a07d\AccelerometerListener.java
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\android\src\crc64a0e0a82d0db9a07d\ActivityLifecycleContextListener.java
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\android\src\crc64a0e0a82d0db9a07d\BarometerListener.java
@@ -607,3 +611,4 @@ C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debu
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\David\App_Prog\MakingButtonDoSomething\MakingButtonDoSomething\obj\Debug\110\MakingButtonDoSomething.csproj.AssemblyReference.cache
