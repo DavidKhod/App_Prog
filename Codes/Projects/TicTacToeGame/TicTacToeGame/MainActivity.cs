@@ -33,6 +33,10 @@ namespace TicTacToeGame
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
+        public void Update()
+        {
+
+        }
         public void Init()
         {
             topLeft = FindViewById<Button>(Resource.Id.topLeft);
