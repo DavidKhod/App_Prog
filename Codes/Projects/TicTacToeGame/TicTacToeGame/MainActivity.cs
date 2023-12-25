@@ -18,6 +18,7 @@ namespace TicTacToeGame
         Button bottomLeft;
         Button bottom;
         Button bottomRight;
+        TicTacToe game;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -25,7 +26,21 @@ namespace TicTacToeGame
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
             Init();
+            topLeft.Click += TopLeft_Click;
         }
+
+        private void TopLeft_Click(object sender, System.EventArgs e)
+        {
+            if(topLeft.Text == " ")
+            {
+                topLeft.Text = game.turnNow();
+                Update();
+            }
+            else
+                Toast.MakeText(Application.Context, "Choose an Empty square!", ToastLength.Short).Show();
+
+        }
+
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -35,6 +50,13 @@ namespace TicTacToeGame
 
         public void Update()
         {
+            if (game.IfWin())
+            {
+                Toast.MakeText(Application.Context, game.WhoWon(), ToastLength.Short).Show();
+                game.StartOver();
+            }
+            else
+                game.SwitchTurn();
 
         }
         public void Init()

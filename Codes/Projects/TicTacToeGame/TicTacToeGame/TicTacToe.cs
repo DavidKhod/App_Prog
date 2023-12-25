@@ -11,13 +11,22 @@ using System.Text;
 
 namespace TicTacToeGame
 {
-    public enum Turn { X,O,N};
+    public enum Turn { X,O,T};
     class TicTacToe
     {
         private Char[] game = new char[9];
         Turn turn;
 
         public TicTacToe()
+        {
+            for (int i = 0; i < game.Length; i++)
+            {
+                game[i] = ' ';
+            }
+            this.turn = Turn.X;
+        }
+
+        public void StartOver()
         {
             for (int i = 0; i < game.Length; i++)
             {
@@ -38,6 +47,14 @@ namespace TicTacToeGame
             bool thirdCol = game[2] == game[5] && game[5] == game[8];
             if (firstRow || secondRow || thirdRow || mainDiagonal || secondDiagonal || firstCol || secondCol || thirdCol)
                 return true;
+            else
+            {
+                if (!game.Contains(' '))
+                {
+                    return true;
+                    this.turn = Turn.T;
+                }
+            }
             return false;
         }
 
@@ -47,7 +64,9 @@ namespace TicTacToeGame
             {
                 if (this.turn == Turn.X)
                     return "X";
-                return "O";
+                else if (this.turn == Turn.O)
+                    return "O";
+                return "Tie";
             }
             return " ";
         }
@@ -58,6 +77,13 @@ namespace TicTacToeGame
                 this.turn = Turn.O;
             else
                 this.turn = Turn.X;
+        }
+
+        public string turnNow()
+        {
+            if (this.turn == Turn.X)
+                return "X";
+            return "O";
         }
 
 
