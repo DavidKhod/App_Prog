@@ -41,11 +41,15 @@ namespace TicTacToeGame
             return false;
         }
 
-        public Turn WhoWon()
+        public string WhoWon()
         {
             if (IfWin())
-                return this.turn;
-            return Turn.N;
+            {
+                if (this.turn == Turn.X)
+                    return "X";
+                return "O";
+            }
+            return " ";
         }
 
         public void SwitchTurn()
@@ -55,5 +59,7 @@ namespace TicTacToeGame
             else
                 this.turn = Turn.X;
         }
+
+
     }
 }
