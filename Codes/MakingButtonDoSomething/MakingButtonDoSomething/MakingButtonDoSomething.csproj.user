@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<<<<<<< HEAD:MakingButtonDoSomething/MakingButtonDoSomething/MakingButtonDoSomething.csproj.user
+    <SelectedDevice>Android Emulator</SelectedDevice>
+    <ActiveDebugProfile>Android Emulator</ActiveDebugProfile>
+=======
+    <SelectedDevice>pixel_2_pie_9_0_-_api_28</SelectedDevice>
+    <ActiveDebugProfile>pixel_2_pie_9_0_-_api_28</ActiveDebugProfile>
+>>>>>>> d4c7f2258e409ce89b1aa32d03b0edd3bc2a6994:Codes/MakingButtonDoSomething/MakingButtonDoSomething/MakingButtonDoSomething.csproj.user
+    <DefaultDevice>pixel_2_pie_9_0_-_api_28</DefaultDevice>
+    <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+  </PropertyGroup>
+</Project>

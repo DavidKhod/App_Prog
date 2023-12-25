@@ -1,0 +1,7 @@
+C:\Users\David\App_Prog\Codes\Codes_Examples\FirstEnum\FirstEnum\bin\Debug\FirstEnum.exe.config
+C:\Users\David\App_Prog\Codes\Codes_Examples\FirstEnum\FirstEnum\bin\Debug\FirstEnum.exe
+C:\Users\David\App_Prog\Codes\Codes_Examples\FirstEnum\FirstEnum\bin\Debug\FirstEnum.pdb
+C:\Users\David\App_Prog\Codes\Codes_Examples\FirstEnum\FirstEnum\obj\Debug\FirstEnum.csproj.AssemblyReference.cache
+C:\Users\David\App_Prog\Codes\Codes_Examples\FirstEnum\FirstEnum\obj\Debug\FirstEnum.csproj.CoreCompileInputs.cache
+C:\Users\David\App_Prog\Codes\Codes_Examples\FirstEnum\FirstEnum\obj\Debug\FirstEnum.exe
+C:\Users\David\App_Prog\Codes\Codes_Examples\FirstEnum\FirstEnum\obj\Debug\FirstEnum.pdb
