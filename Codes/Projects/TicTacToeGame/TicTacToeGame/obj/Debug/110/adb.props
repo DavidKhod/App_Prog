@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 AdbTarget=
+=======
+AdbTarget=-s ROTWOFIVCEGMHMDY
+>>>>>>> 1ff5a6c93155dea7358028d335c7ea435b96f3b5
 AdbOptions=

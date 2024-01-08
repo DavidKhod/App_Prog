@@ -1,58 +1,68 @@
-﻿using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System;
 
 namespace TicTacToeGame
 {
-    public enum Turn { X,O,T};
+    public enum Turn { X, O, T };
     class TicTacToe
     {
-        private Char[] game = new char[9];
+        private Char[,] game = new char[3, 3];
         Turn turn;
 
         public TicTacToe()
         {
-            for (int i = 0; i < game.Length; i++)
+            for (int i = 0; i < this.game.GetLength(0); i++)
             {
-                game[i] = ' ';
+                for (int j = 0; j < this.game.GetLength(1); j++)
+                {
+                    this.game[i, j] = ' ';
+                }
             }
             this.turn = Turn.X;
         }
 
         public void StartOver()
         {
-            for (int i = 0; i < game.Length; i++)
+            for (int i = 0; i < this.game.GetLength(0); i++)
             {
-                game[i] = ' ';
+                for (int j = 0; j < this.game.GetLength(1); j++)
+                {
+                    this.game[i, j] = ' ';
+                }
             }
             this.turn = Turn.X;
         }
 
         public bool IfWin()
         {
-            bool firstRow = game[0] == game[1] && game[1] == game[2];
-            bool secondRow = game[3] == game[4] && game[4] == game[5];
-            bool thirdRow = game[6] == game[7] && game[7] == game[8];
-            bool mainDiagonal = game[0] == game[4] && game[0] == game[8];
-            bool secondDiagonal = game[6] == game[4] && game[4] == game[2];
-            bool firstCol = game[0] == game[3] && game[3] == game[6];
-            bool secondCol = game[1] == game[4] && game[4] == game[7];
-            bool thirdCol = game[2] == game[5] && game[5] == game[8];
-            if (firstRow || secondRow || thirdRow || mainDiagonal || secondDiagonal || firstCol || secondCol || thirdCol)
+            bool firstRow = (game[0, 0] == 'X' || game[0, 0] == 'O') && game[0, 0] == game[0, 1] && game[0, 1] == game[0, 2];
+            bool secondRow = (game[1, 0] == 'X' || game[1, 0] == 'O') && game[1, 0] == game[1, 1] && game[1, 1] == game[1, 2];
+            bool thirdRow = (game[2, 0] == 'X' || game[2, 0] == 'O') && game[2, 0] == game[2, 1] && game[2, 1] == game[2, 2];
+            bool mainDiag = (game[0, 0] == 'X' || game[0, 0] == 'O') && game[0, 0] == game[1, 1] && game[1, 1] == game[2, 2];
+            bool secdDiag = (game[2, 0] == 'X' || game[2, 0] == 'O') && game[2, 0] == game[1, 1] && game[1, 1] == game[0, 2];
+            bool firstCol = (game[0, 0] == 'X' || game[0, 0] == 'O') && game[0, 0] == game[1, 0] && game[1, 0] == game[2, 0];
+            bool secondCol = (game[0, 1] == 'X' || game[0, 1] == 'O') && game[0, 1] == game[1, 1] && game[1, 1] == game[2, 1];
+            bool thirdCol = (game[2, 0] == 'X' || game[2, 0] == 'O') && game[2, 0] == game[2, 1] && game[2, 1] == game[2, 2];
+            if (firstRow || secondRow || thirdRow || mainDiag || secdDiag || firstCol || secondCol || thirdCol)
                 return true;
             else
             {
-                if (!game.Contains(' '))
+                if (!Contains(' '))
                 {
                     return true;
                     this.turn = Turn.T;
+                }
+            }
+            return false;
+        }
+
+        public bool Contains(char comparing)
+        {
+            for (int i = 0; i < game.GetLength(0); i++)
+            {
+                for (int j = 0; j < game.GetLength(1); j++)
+                {
+                    if (game[i, j] == comparing)
+                        return true;
                 }
             }
             return false;
@@ -85,7 +95,5 @@ namespace TicTacToeGame
                 return "X";
             return "O";
         }
-
-
     }
 }

@@ -1,8 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+<<<<<<< HEAD
     <SelectedDevice>Android Emulator</SelectedDevice>
     <ActiveDebugProfile>Android Emulator</ActiveDebugProfile>
+=======
+    <SelectedDevice>OnePlus DN2103</SelectedDevice>
+    <ActiveDebugProfile>OnePlus DN2103</ActiveDebugProfile>
+>>>>>>> 1ff5a6c93155dea7358028d335c7ea435b96f3b5
     <DefaultDevice>pixel_2_pie_9_0_-_api_28</DefaultDevice>
     <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
     <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
