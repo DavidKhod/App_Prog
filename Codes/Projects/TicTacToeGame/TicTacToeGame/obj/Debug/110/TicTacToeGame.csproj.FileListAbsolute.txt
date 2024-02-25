@@ -303,3 +303,5 @@ C:\Users\David\App_Prog\Codes\Projects\TicTacToeGame\TicTacToeGame\obj\Debug\110
 C:\Users\David\App_Prog\Codes\Projects\TicTacToeGame\TicTacToeGame\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 C:\Users\David\App_Prog\Codes\Projects\TicTacToeGame\TicTacToeGame\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\David\App_Prog\Codes\Projects\TicTacToeGame\TicTacToeGame\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\David\App_Prog\Codes\Projects\TicTacToeGame\TicTacToeGame\obj\Debug\110\res\layout\startpage.xml
+C:\Users\David\App_Prog\Codes\Projects\TicTacToeGame\TicTacToeGame\obj\Debug\110\android\src\crc6406e81a5cea8dd803\StartPage.java

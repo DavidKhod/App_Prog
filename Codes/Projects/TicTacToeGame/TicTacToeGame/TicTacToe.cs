@@ -1,97 +1,125 @@
-﻿using System;
+﻿using Android.Widget;
 
 namespace TicTacToeGame
 {
-    public enum Turn { X, O, T };
+
+    public enum State { X, O, T, None };
+    public enum Choice { none, X, O };
     class TicTacToe
     {
-        private Char[,] game = new char[3, 3];
-        Turn turn;
-
+        private Choice[,] board = new Choice[3, 3];
+        private Choice currentChoice;
+        private State winner = State.None;
         public TicTacToe()
         {
-            for (int i = 0; i < this.game.GetLength(0); i++)
-            {
-                for (int j = 0; j < this.game.GetLength(1); j++)
-                {
-                    this.game[i, j] = ' ';
-                }
-            }
-            this.turn = Turn.X;
+            RestartBoard();
+            this.currentChoice = Choice.X;
+        }
+        public TicTacToe(Choice turn)
+        {
+            RestartBoard();
+            this.currentChoice = turn;
+        }
+        public void StartOver(Choice turn)
+        {
+            RestartBoard();
+            this.currentChoice = turn;
         }
 
-        public void StartOver()
+        private void RestartBoard()
         {
-            for (int i = 0; i < this.game.GetLength(0); i++)
+            for (int i = 0; i < this.board.GetLength(0); i++)
             {
-                for (int j = 0; j < this.game.GetLength(1); j++)
+                for (int j = 0; j < this.board.GetLength(1); j++)
                 {
-                    this.game[i, j] = ' ';
+                    this.board[i, j] = Choice.none;
                 }
             }
-            this.turn = Turn.X;
         }
 
         public bool IfWin()
         {
-            bool firstRow = (game[0, 0] == 'X' || game[0, 0] == 'O') && game[0, 0] == game[0, 1] && game[0, 1] == game[0, 2];
-            bool secondRow = (game[1, 0] == 'X' || game[1, 0] == 'O') && game[1, 0] == game[1, 1] && game[1, 1] == game[1, 2];
-            bool thirdRow = (game[2, 0] == 'X' || game[2, 0] == 'O') && game[2, 0] == game[2, 1] && game[2, 1] == game[2, 2];
-            bool mainDiag = (game[0, 0] == 'X' || game[0, 0] == 'O') && game[0, 0] == game[1, 1] && game[1, 1] == game[2, 2];
-            bool secdDiag = (game[2, 0] == 'X' || game[2, 0] == 'O') && game[2, 0] == game[1, 1] && game[1, 1] == game[0, 2];
-            bool firstCol = (game[0, 0] == 'X' || game[0, 0] == 'O') && game[0, 0] == game[1, 0] && game[1, 0] == game[2, 0];
-            bool secondCol = (game[0, 1] == 'X' || game[0, 1] == 'O') && game[0, 1] == game[1, 1] && game[1, 1] == game[2, 1];
-            bool thirdCol = (game[2, 0] == 'X' || game[2, 0] == 'O') && game[2, 0] == game[2, 1] && game[2, 1] == game[2, 2];
+            bool firstRow = (board[0, 0] == Choice.X || board[0, 0] == Choice.O) && board[0, 0] == board[0, 1] && board[0, 1] == board[0, 2];
+            bool secondRow = (board[1, 0] == Choice.X || board[1, 0] == Choice.O) && board[1, 0] == board[1, 1] && board[1, 1] == board[1, 2];
+            bool thirdRow = (board[2, 0] == Choice.X || board[2, 0] == Choice.O) && board[2, 0] == board[2, 1] && board[2, 1] == board[2, 2];
+            bool mainDiag = (board[0, 0] == Choice.X || board[0, 0] == Choice.O) && board[0, 0] == board[1, 1] && board[1, 1] == board[2, 2];
+            bool secdDiag = (board[2, 0] == Choice.X || board[2, 0] == Choice.O) && board[2, 0] == board[1, 1] && board[1, 1] == board[0, 2];
+            bool firstCol = (board[0, 0] == Choice.X || board[0, 0] == Choice.O) && board[0, 0] == board[1, 0] && board[1, 0] == board[2, 0];
+            bool secondCol = (board[0, 1] == Choice.X || board[0, 1] == Choice.O) && board[0, 1] == board[1, 1] && board[1, 1] == board[2, 1];
+            bool thirdCol = (board[2, 0] == Choice.X || board[2, 0] == Choice.O) && board[2, 0] == board[2, 1] && board[2, 1] == board[2, 2];
             if (firstRow || secondRow || thirdRow || mainDiag || secdDiag || firstCol || secondCol || thirdCol)
+            {
+                if (currentChoice == Choice.X)
+                    winner = State.X;
+                else
+                    winner = State.O;
                 return true;
+            }
             else
             {
-                if (!Contains(' '))
+                if (full())
                 {
+                    this.winner = State.T;
                     return true;
-                    this.turn = Turn.T;
                 }
             }
             return false;
         }
 
-        public bool Contains(char comparing)
+        public bool full()
         {
-            for (int i = 0; i < game.GetLength(0); i++)
+            for (int i = 0; i < board.GetLength(0); i++)
             {
-                for (int j = 0; j < game.GetLength(1); j++)
+                for (int j = 0; j < board.GetLength(1); j++)
                 {
-                    if (game[i, j] == comparing)
-                        return true;
+                    if (board[i, j] == Choice.none)
+                        return false;
                 }
             }
-            return false;
+            return true;
         }
 
         public string WhoWon()
         {
-            if (IfWin())
-            {
-                if (this.turn == Turn.X)
-                    return "X";
-                else if (this.turn == Turn.O)
-                    return "O";
-                return "Tie";
-            }
-            return " ";
+            if (winner == State.X)
+                return "X";
+            else if (winner == State.O)
+                return "O";
+            return "Tie";
         }
 
         public void SwitchTurn()
         {
-            if (this.turn == Turn.X)
-                this.turn = Turn.O;
+            if (this.currentChoice == Choice.X)
+                this.currentChoice = Choice.O;
             else
-                this.turn = Turn.X;
+                this.currentChoice = Choice.X;
         }
 
-        public string turnNow()
+        public void SetChoice(object sender, Button[,] buttons)
         {
-            if (this.turn == Turn.X)
+            int line = -1;
+            int col = -1;
+            for (int i = 0; i < buttons.GetLength(0); i++)
+            {
+                for (int j = 0; j < buttons.GetLength(1); j++)
+                {
+                    if (buttons[i, j] == (Button)sender)
+                    {
+                        line = i;
+                        col = j;
+                        break;
+                    }
+                }
+                if (line != -1 && col != -1)
+                    break;
+            }
+            this.board[line, col] = currentChoice;
+        }
+
+        public string TurnNow()
+        {
+            if (this.currentChoice == Choice.X)
                 return "X";
             return "O";
         }

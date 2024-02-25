@@ -9,139 +9,30 @@ namespace TicTacToeGame
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        Button topLeft;
-        Button top;
-        Button topRight;
-        Button middleLeft;
-        Button middle;
-        Button middleRight;
-        Button bottomLeft;
-        Button bottom;
-        Button bottomRight;
+        Button[,] buttons;
         TicTacToe game;
+        bool isX = true;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+            isX = Intent.GetBooleanExtra("isX", true);//Recive bool of who starts
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
-            Init();
-            topLeft.Click += TopLeft_Click;
-            top.Click += Top_Click;
-            topRight.Click += TopRight_Click;
-            middleLeft.Click += MiddleLeft_Click;
-            middle.Click += Middle_Click;
-            middleRight.Click += MiddleRight_Click;
-            bottomLeft.Click += BottomLeft_Click;
-            bottom.Click += Bottom_Click;
-            bottomRight.Click += BottomRight_Click;
+            Init();//Initiate all Buttons
+            InitClick();//Initiate all buttons
         }
 
-        private void BottomRight_Click(object sender, System.EventArgs e)
+        private void Choice_Click(object sender, System.EventArgs e)
         {
-            if (bottomRight.Text == " ")
+            if (((Button)sender).Text == " ")
             {
-                bottomRight.Text = game.turnNow();
+                ((Button)sender).Text = game.TurnNow();
+                game.SetChoice(sender, buttons);
                 Update();
             }
             else
                 Toast.MakeText(Application.Context, "Choose an Empty square!", ToastLength.Short).Show();
-        }
-
-        private void Bottom_Click(object sender, System.EventArgs e)
-        {
-            if (bottom.Text == " ")
-            {
-                bottom.Text = game.turnNow();
-                Update();
-            }
-            else
-                Toast.MakeText(Application.Context, "Choose an Empty square!", ToastLength.Short).Show();
-        }
-
-        private void BottomLeft_Click(object sender, System.EventArgs e)
-        {
-            if (bottomLeft.Text == " ")
-            {
-                bottomLeft.Text = game.turnNow();
-                Update();
-            }
-            else
-                Toast.MakeText(Application.Context, "Choose an Empty square!", ToastLength.Short).Show();
-        }
-
-        private void MiddleRight_Click(object sender, System.EventArgs e)
-        {
-            if (middleRight.Text == " ")
-            {
-                middleRight.Text = game.turnNow();
-                Update();
-            }
-            else
-                Toast.MakeText(Application.Context, "Choose an Empty square!", ToastLength.Short).Show();
-        }
-
-        private void Middle_Click(object sender, System.EventArgs e)
-        {
-            if (middle.Text == " ")
-            {
-                middle.Text = game.turnNow();
-                Update();
-            }
-            else
-                Toast.MakeText(Application.Context, "Choose an Empty square!", ToastLength.Short).Show();
-        }
-
-        private void MiddleLeft_Click(object sender, System.EventArgs e)
-        {
-            if (middleLeft.Text == " ")
-            {
-                middleLeft.Text = game.turnNow();
-                Update();
-            }
-            else
-                Toast.MakeText(Application.Context, "Choose an Empty square!", ToastLength.Short).Show();
-        }
-
-        private void TopRight_Click(object sender, System.EventArgs e)
-        {
-            if (topRight.Text == " ")
-            {
-                topRight.Text = game.turnNow();
-                Update();
-            }
-            else
-                Toast.MakeText(Application.Context, "Choose an Empty square!", ToastLength.Short).Show();
-        }
-
-        private void Top_Click(object sender, System.EventArgs e)
-        {
-            if (top.Text == " ")
-            {
-                top.Text = game.turnNow();
-                Update();
-            }
-            else
-                Toast.MakeText(Application.Context, "Choose an Empty square!", ToastLength.Short).Show();
-        }
-
-        private void TopLeft_Click(object sender, System.EventArgs e)
-        {
-            if(topLeft.Text == " ")
-            {
-                topLeft.Text = game.turnNow();
-                Update();
-            }
-            else
-                Toast.MakeText(Application.Context, "Choose an Empty square!", ToastLength.Short).Show();
-        }
-
-
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
-        {
-            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-
-            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
         public void Update()
@@ -159,30 +50,50 @@ namespace TicTacToeGame
 
         public void Init()
         {
-            topLeft = FindViewById<Button>(Resource.Id.topLeft);
-            top = FindViewById<Button>(Resource.Id.top);
-            topRight = FindViewById<Button>(Resource.Id.topRight);
-            middleLeft = FindViewById<Button>(Resource.Id.middleLeft);
-            middle = FindViewById<Button>(Resource.Id.middle);
-            middleRight = FindViewById<Button>(Resource.Id.middleRigh);
-            bottomLeft = FindViewById<Button>(Resource.Id.bottomLeft);
-            bottom = FindViewById<Button>(Resource.Id.bottom);
-            bottomRight = FindViewById<Button>(Resource.Id.bottomRight);
+            buttons = new Button[3, 3];
+            buttons[0, 0] = FindViewById<Button>(Resource.Id.topLeft);
+            buttons[0, 1] = FindViewById<Button>(Resource.Id.top);
+            buttons[0, 2] = FindViewById<Button>(Resource.Id.topRight);
+            buttons[1, 0] = FindViewById<Button>(Resource.Id.middleLeft);
+            buttons[1, 1] = FindViewById<Button>(Resource.Id.middle);
+            buttons[1, 2] = FindViewById<Button>(Resource.Id.middleRigh);
+            buttons[2, 0] = FindViewById<Button>(Resource.Id.bottomLeft);
+            buttons[2, 1] = FindViewById<Button>(Resource.Id.bottom);
+            buttons[2, 2] = FindViewById<Button>(Resource.Id.bottomRight);
             game = new TicTacToe();
+        }
+
+        public void InitClick()
+        {
+            buttons[0, 0].Click += Choice_Click;
+            buttons[0, 1].Click += Choice_Click;
+            buttons[0, 2].Click += Choice_Click;
+            buttons[1, 0].Click += Choice_Click;
+            buttons[1, 1].Click += Choice_Click;
+            buttons[1, 2].Click += Choice_Click;
+            buttons[2, 0].Click += Choice_Click;
+            buttons[2, 1].Click += Choice_Click;
+            buttons[2, 2].Click += Choice_Click;
         }
 
         public void resetGame()
         {
             game.StartOver();
-            topLeft.Text = " ";
-            top.Text = " ";
-            topRight.Text = " ";
-            middleLeft.Text = " ";
-            middle.Text = " ";
-            middleRight.Text = " ";
-            bottomLeft.Text = " ";
-            bottom.Text = " ";
-            bottomRight.Text = " ";
+            for (int i = 0; i < buttons.GetLength(0); i++)
+            {
+                for (int j = 0; j < buttons.GetLength(1); j++)
+                {
+                    buttons[i, j].Text = " ";
+                }
+            }
         }
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
+        {
+            Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+
+
     }
 }
