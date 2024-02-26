@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+          android:id="@+id/btnlayout">
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShowImages"
+        android:layout_gravity="center"
+        android:text="Show Images"/>
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CloseScreen"
+        android:text="Close Screen"
+        android:layout_gravity="center"/>
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnClearScreen"
+        android:layout_gravity="center"
+        android:text="Clear Screen"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCount"
+        android:inputType="number"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imagesLayout"
+        android:orientation="horizontal"
+        android:layout_gravity="center"/>
+  
+</LinearLayout>

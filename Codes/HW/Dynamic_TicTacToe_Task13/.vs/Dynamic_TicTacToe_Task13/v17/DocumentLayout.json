@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{60F277CC-AC8A-4656-B4CC-35BA78187B64}|Dynamic_TicTacToe_Task13\\Dynamic_TicTacToe_Task13.csproj|solutionrelative:dynamic_tictactoe_task13\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60F277CC-AC8A-4656-B4CC-35BA78187B64}|Dynamic_TicTacToe_Task13\\Dynamic_TicTacToe_Task13.csproj|c:\\users\\david\\app_prog\\codes\\hw\\dynamic_tictactoe_task13\\dynamic_tictactoe_task13\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "AbsoluteMoniker": "D:0:0:{60F277CC-AC8A-4656-B4CC-35BA78187B64}|Dynamic_TicTacToe_Task13\\Dynamic_TicTacToe_Task13.csproj|C:\\Users\\David\\App_Prog\\Codes\\HW\\Dynamic_TicTacToe_Task13\\dynamic_tictactoe_task13\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
       "RelativeMoniker": "D:0:0:{60F277CC-AC8A-4656-B4CC-35BA78187B64}|Dynamic_TicTacToe_Task13\\Dynamic_TicTacToe_Task13.csproj|solutionrelative:dynamic_tictactoe_task13\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     }
   ],
@@ -29,8 +29,7 @@
               "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\HW\\Dynamic_TicTacToe_Task13\\Dynamic_TicTacToe_Task13\\Resources\\layout\\activity_main.xml",
               "RelativeToolTip": "Dynamic_TicTacToe_Task13\\Resources\\layout\\activity_main.xml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-02-23T09:13:48.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-23T09:13:48.672Z"
             },
             {
               "$type": "Document",
@@ -40,14 +39,10 @@
               "RelativeDocumentMoniker": "Dynamic_TicTacToe_Task13\\MainActivity.cs",
               "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\HW\\Dynamic_TicTacToe_Task13\\Dynamic_TicTacToe_Task13\\MainActivity.cs",
               "RelativeToolTip": "Dynamic_TicTacToe_Task13\\MainActivity.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowAAAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T09:13:29.874Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
