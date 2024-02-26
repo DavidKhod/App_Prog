@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\David\\source\\repos\\App2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32D60807-2006-48DD-BFC9-98AA44865324}|App2\\App2.csproj|c:\\users\\david\\source\\repos\\app2\\app2\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32D60807-2006-48DD-BFC9-98AA44865324}|App2\\App2.csproj|solutionrelative:app2\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D60807-2006-48DD-BFC9-98AA44865324}|App2\\App2.csproj|C:\\Users\\David\\source\\repos\\App2\\app2\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{32D60807-2006-48DD-BFC9-98AA44865324}|App2\\App2.csproj|solutionrelative:app2\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "activity_main.xml",
+              "DocumentMoniker": "C:\\Users\\David\\source\\repos\\App2\\App2\\Resources\\layout\\activity_main.xml",
+              "RelativeDocumentMoniker": "App2\\Resources\\layout\\activity_main.xml",
+              "ToolTip": "C:\\Users\\David\\source\\repos\\App2\\App2\\Resources\\layout\\activity_main.xml",
+              "RelativeToolTip": "App2\\Resources\\layout\\activity_main.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-02-26T12:09:33.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\David\\source\\repos\\App2\\App2\\MainActivity.cs",
+              "RelativeDocumentMoniker": "App2\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\David\\source\\repos\\App2\\App2\\MainActivity.cs",
+              "RelativeToolTip": "App2\\MainActivity.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAUwCkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T12:06:11.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
