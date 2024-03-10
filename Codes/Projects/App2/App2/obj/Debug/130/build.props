@@ -3,7 +3,7 @@ aotassemblies=false
 androidaddkeepalives=
 androidaotmode=none
 androidembedprofilers=
-androidenableprofiledaot=
+androidenableprofiledaot=false
 androiddextool=d8
 androidlinktool=
 androidlinkresources=
@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638445531908829712
+_nugetassetstimestamp=638446625782714356
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\david\source\repos\app2\app2\app2.csproj
+projectfullpath=c:\users\david\app_prog\codes\projects\app2\app2\app2.csproj

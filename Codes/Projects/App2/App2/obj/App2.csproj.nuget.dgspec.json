@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\David\\source\\repos\\App2\\App2\\App2.csproj": {}
+    "C:\\Users\\David\\App_Prog\\Codes\\Projects\\App2\\App2\\App2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\David\\source\\repos\\App2\\App2\\App2.csproj": {
+    "C:\\Users\\David\\App_Prog\\Codes\\Projects\\App2\\App2\\App2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\David\\source\\repos\\App2\\App2\\App2.csproj",
+        "projectUniqueName": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\App2\\App2\\App2.csproj",
         "projectName": "App2",
-        "projectPath": "C:\\Users\\David\\source\\repos\\App2\\App2\\App2.csproj",
+        "projectPath": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\App2\\App2\\App2.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\David\\source\\repos\\App2\\App2\\obj\\",
+        "outputPath": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\App2\\App2\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
