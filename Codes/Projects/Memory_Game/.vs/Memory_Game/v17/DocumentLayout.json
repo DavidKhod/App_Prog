@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\Memory_Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC327494-8ACB-495D-98D6-94021294693E}|Memory_Game.csproj|c:\\users\\david\\app_prog\\codes\\projects\\memory_game\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC327494-8ACB-495D-98D6-94021294693E}|Memory_Game.csproj|solutionrelative:homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC327494-8ACB-495D-98D6-94021294693E}|Memory_Game.csproj|c:\\users\\david\\app_prog\\codes\\projects\\memory_game\\resources\\layout\\homepage.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{AC327494-8ACB-495D-98D6-94021294693E}|Memory_Game.csproj|solutionrelative:resources\\layout\\homepage.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC327494-8ACB-495D-98D6-94021294693E}|Memory_Game.csproj|C:\\Users\\David\\App_Prog\\Codes\\Projects\\Memory_Game\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC327494-8ACB-495D-98D6-94021294693E}|Memory_Game.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC327494-8ACB-495D-98D6-94021294693E}|Memory_Game.csproj|c:\\users\\david\\app_prog\\codes\\projects\\memory_game\\memorygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC327494-8ACB-495D-98D6-94021294693E}|Memory_Game.csproj|solutionrelative:memorygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\Memory_Game\\HomePage.cs",
+              "RelativeDocumentMoniker": "HomePage.cs",
+              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\Memory_Game\\HomePage.cs",
+              "RelativeToolTip": "HomePage.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwB4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T11:36:56.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePage.xml",
+              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\Memory_Game\\Resources\\layout\\HomePage.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\HomePage.xml",
+              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\Memory_Game\\Resources\\layout\\HomePage.xml",
+              "RelativeToolTip": "Resources\\layout\\HomePage.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-04-08T11:29:27.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemoryGame.cs",
+              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\Memory_Game\\MemoryGame.cs",
+              "RelativeDocumentMoniker": "MemoryGame.cs",
+              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\Memory_Game\\MemoryGame.cs",
+              "RelativeToolTip": "MemoryGame.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAIwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:52:19.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\Memory_Game\\MainActivity.cs",
+              "RelativeDocumentMoniker": "MainActivity.cs",
+              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Projects\\Memory_Game\\MainActivity.cs",
+              "RelativeToolTip": "MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:51:31.693Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

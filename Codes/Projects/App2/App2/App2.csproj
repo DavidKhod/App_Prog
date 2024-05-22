@@ -107,26 +107,26 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\drawable\img10C.png" />
-    <Content Include="Resources\drawable\img10D.png" />
-    <Content Include="Resources\drawable\img10H.png" />
-    <Content Include="Resources\drawable\img10S.png" />
-    <Content Include="Resources\drawable\img11C.png" />
-    <Content Include="Resources\drawable\img11D.png" />
-    <Content Include="Resources\drawable\img11H.png" />
-    <Content Include="Resources\drawable\img11S.png" />
-    <Content Include="Resources\drawable\img12C.png" />
-    <Content Include="Resources\drawable\img12D.png" />
-    <Content Include="Resources\drawable\img12H.png" />
-    <Content Include="Resources\drawable\img12S.png" />
-    <Content Include="Resources\drawable\img13C.png" />
-    <Content Include="Resources\drawable\img13D.png" />
-    <Content Include="Resources\drawable\img13H.png" />
-    <Content Include="Resources\drawable\img13S.png" />
-    <Content Include="Resources\drawable\img1C.png" />
-    <Content Include="Resources\drawable\img1D.png" />
-    <Content Include="Resources\drawable\img1H.png" />
-    <Content Include="Resources\drawable\img1S.png" />
+    <AndroidResource Include="Resources\drawable\img10c.png" />
+    <AndroidResource Include="Resources\drawable\img10D.png" />
+    <AndroidResource Include="Resources\drawable\img10H.png" />
+    <AndroidResource Include="Resources\drawable\img10S.png" />
+    <AndroidResource Include="Resources\drawable\img11C.png" />
+    <AndroidResource Include="Resources\drawable\img11D.png" />
+    <AndroidResource Include="Resources\drawable\img11H.png" />
+    <AndroidResource Include="Resources\drawable\img11S.png" />
+    <AndroidResource Include="Resources\drawable\img12C.png" />
+    <AndroidResource Include="Resources\drawable\img12D.png" />
+    <AndroidResource Include="Resources\drawable\img12H.png" />
+    <AndroidResource Include="Resources\drawable\img12S.png" />
+    <AndroidResource Include="Resources\drawable\img13C.png" />
+    <AndroidResource Include="Resources\drawable\img13D.png" />
+    <AndroidResource Include="Resources\drawable\img13H.png" />
+    <AndroidResource Include="Resources\drawable\img13S.png" />
+    <AndroidResource Include="Resources\drawable\img1C.png" />
+    <AndroidResource Include="Resources\drawable\img1D.png" />
+    <AndroidResource Include="Resources\drawable\img1H.png" />
+    <AndroidResource Include="Resources\drawable\img1S.png" />
     <Content Include="Resources\drawable\img2C.png" />
     <Content Include="Resources\drawable\img2D.png" />
     <Content Include="Resources\drawable\img2H.png" />
@@ -159,6 +159,7 @@
     <Content Include="Resources\drawable\img9D.png" />
     <Content Include="Resources\drawable\img9H.png" />
     <Content Include="Resources\drawable\img9S.png" />
+    <Content Include="Resources\drawable\picOfMeInSpain.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

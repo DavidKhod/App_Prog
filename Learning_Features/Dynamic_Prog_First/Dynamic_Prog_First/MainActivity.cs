@@ -21,7 +21,6 @@ namespace Dynamic_Prog_First
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
             Init();
-
         }
 
         void Init()

@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Runtime;
+using Android.Views;
 using Android.Widget;
 using AndroidX.AppCompat.App;
 using System;
@@ -43,14 +44,22 @@ namespace App2
 
         private void BtnShowImages_Click(object sender, EventArgs e)
         {
+            int resId1 = Resources.GetIdentifier("img10C", "drawable", PackageName);
+            int resId2 = Resources.GetIdentifier("img10c", "drawable", PackageName);
+
             imagesLayout.RemoveAllViews();
             string count = editTextCount.Text;
             if (string.IsNullOrEmpty(count))
                 cnt = 0;
             else
                 cnt = int.Parse(count);
-            char[] types = new char[] { 's', 'd', 'h', 'c' };
+            char[] types = new char[] { 'S', 'D', 'H', 'C' };
             var tempLayout = new LinearLayout(this);
+            int matchParent = ViewGroup.LayoutParams.MatchParent;
+            int wrapContent = ViewGroup.LayoutParams.WrapContent;
+            tempLayout.Orientation = Orientation.Horizontal;
+            tempLayout.SetBackgroundColor(Android.Graphics.Color.Red);
+            LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(matchParent, wrapContent);
             for (int i = 0; i <= cnt; i++)
             {
                 if (i % 5 == 0)
@@ -58,12 +67,18 @@ namespace App2
                     if (i > 0)
                     {
                         var img = new ImageView(this);
-                        img.SetImageResource(Resources.GetIdentifier($"img{rnd.Next(1, 14)}{types[rnd.Next(4)]}", "drawable", this.PackageName));
+                        int imgIdx = rnd.Next(1, 14);
+                        char imgType = types[rnd.Next(4)];
+                        string imgName = $"img{imgIdx}{imgType}";
+                        int resId = Resources.GetIdentifier(imgName, "drawable", this.PackageName);
+                        img.SetImageResource(resId);
                         img.LayoutParameters = new LinearLayout.LayoutParams(0, 200, 1);
-                        tempLayout.AddView(img);
+                        //tempLayout.AddView(img);
+                        imagesLayout.AddView(img);
                     }
                     imagesLayout.AddView(tempLayout);
                     tempLayout = new LinearLayout(this);
+                    tempLayout.LayoutParameters = lp;
                     continue;
                 }
                 var imgv = new ImageView(this);
