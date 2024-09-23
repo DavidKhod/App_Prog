@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{F5048A43-5CB0-477C-A07C-01D096A9BD8D}|IntentFirst.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5048A43-5CB0-477C-A07C-01D096A9BD8D}|IntentFirst.csproj|c:\\users\\david\\app_prog\\learning_features\\intentfirst\\secondactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F5048A43-5CB0-477C-A07C-01D096A9BD8D}|IntentFirst.csproj|C:\\Users\\David\\App_Prog\\Learning_Features\\IntentFirst\\secondactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5048A43-5CB0-477C-A07C-01D096A9BD8D}|IntentFirst.csproj|solutionrelative:secondactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5048A43-5CB0-477C-A07C-01D096A9BD8D}|IntentFirst.csproj|c:\\users\\david\\app_prog\\learning_features\\intentfirst\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "AbsoluteMoniker": "D:0:0:{F5048A43-5CB0-477C-A07C-01D096A9BD8D}|IntentFirst.csproj|C:\\Users\\David\\App_Prog\\Learning_Features\\IntentFirst\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
       "RelativeMoniker": "D:0:0:{F5048A43-5CB0-477C-A07C-01D096A9BD8D}|IntentFirst.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5048A43-5CB0-477C-A07C-01D096A9BD8D}|IntentFirst.csproj|c:\\users\\david\\app_prog\\learning_features\\intentfirst\\resources\\layout\\second_activity.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "AbsoluteMoniker": "D:0:0:{F5048A43-5CB0-477C-A07C-01D096A9BD8D}|IntentFirst.csproj|C:\\Users\\David\\App_Prog\\Learning_Features\\IntentFirst\\resources\\layout\\second_activity.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
       "RelativeMoniker": "D:0:0:{F5048A43-5CB0-477C-A07C-01D096A9BD8D}|IntentFirst.csproj|solutionrelative:resources\\layout\\second_activity.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     }
   ],
@@ -37,8 +37,7 @@
               "ToolTip": "C:\\Users\\David\\App_Prog\\Learning_Features\\IntentFirst\\Resources\\layout\\second_activity.xml",
               "RelativeToolTip": "Resources\\layout\\second_activity.xml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-09-18T11:44:29.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T11:44:29.706Z"
             },
             {
               "$type": "Document",
@@ -50,8 +49,7 @@
               "RelativeToolTip": "SecondActivity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T11:43:49.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T11:43:49.314Z"
             },
             {
               "$type": "Document",
@@ -62,8 +60,7 @@
               "ToolTip": "C:\\Users\\David\\App_Prog\\Learning_Features\\IntentFirst\\Resources\\layout\\activity_main.xml",
               "RelativeToolTip": "Resources\\layout\\activity_main.xml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-09-18T11:33:14.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T11:33:14.003Z"
             },
             {
               "$type": "Document",
@@ -73,7 +70,7 @@
               "RelativeDocumentMoniker": "MainActivity.cs",
               "ToolTip": "C:\\Users\\David\\App_Prog\\Learning_Features\\IntentFirst\\MainActivity.cs",
               "RelativeToolTip": "MainActivity.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAA9wCoAAABMAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwDIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-18T11:32:30.324Z",
               "EditorCaption": ""
