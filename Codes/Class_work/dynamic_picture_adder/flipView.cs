@@ -21,9 +21,18 @@ namespace dynamic_picture_adder
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.flip_View);
             Init();
-            GenerateImageArray();
-            ShowCurrentImage();
-            UpdateButtonsVisibily();
+            if (amountToShow != 0)
+            {
+                GenerateImageArray();
+                ShowCurrentImage();
+                UpdateButtonsVisibily();
+            }
+            else
+            {
+                next.Visibility = ViewStates.Invisible;
+                back.Visibility = ViewStates.Invisible;
+            }
+
         }
 
         public void Init()

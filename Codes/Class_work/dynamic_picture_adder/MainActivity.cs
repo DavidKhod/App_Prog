@@ -40,31 +40,45 @@ namespace dynamic_picture_adder
 
         private void OptionGroup_CheckedChange(object sender, RadioGroup.CheckedChangeEventArgs e)
         {
-            if (e.CheckedId == Resource.Id.galleryOption)
-                optionPicked = 1;
-            else if (e.CheckedId == Resource.Id.flipOption)
-                optionPicked = 2;
-            else
-                optionPicked = 0;
+            switch (e.CheckedId)
+            {
+                case Resource.Id.galleryOption:
+                    optionPicked = 1;
+                    break;
+                case Resource.Id.flipOption:
+                    optionPicked = 2;
+                    break;
+                case Resource.Id.quizOption:
+                    optionPicked = 3;
+                    break;
+                default:
+                    optionPicked = 0;
+                    break;
+            }
         }
 
         private void ShowPics_Click(object sender, System.EventArgs e)
         {
-            try
-            {
-                amountToShow = int.Parse(FindViewById<EditText>(Resource.Id.amountToshow).Text);
-            }
-            catch
-            {
+            if (!int.TryParse(FindViewById<EditText>(Resource.Id.amountToshow).Text, out amountToShow))
                 amountToShow = 0;
-            }
-            var intent = new Intent(this, typeof(MainActivity));
+            Intent intent;
             if (optionPicked != 0)
             {
-                if (optionPicked == 1)
-                    intent = new Intent(this, typeof(galleryView));
-                else if (optionPicked == 2)
-                    intent = new Intent(this, typeof(flip_Page));
+                switch(optionPicked)
+                {
+                    case 1:
+                        intent = new Intent(this, typeof(galleryView));
+                        break;
+                    case 2:
+                        intent = new Intent(this, typeof(flip_Page));
+                        break;
+                    case 3:
+                        intent = new Intent(this, typeof(quizView));
+                        break;
+                    default:
+                        intent = new Intent(this, typeof(MainActivity));
+                        break;
+                }
                 intent.PutExtra("amountToShow", amountToShow);
                 StartActivity(intent);
             }

@@ -7,24 +7,20 @@
       "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:flipview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\galleryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:galleryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\resources\\layout\\flip_view.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
-      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:resources\\layout\\flip_view.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
       "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\resources\\layout\\gallery_view.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
-      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:resources\\layout\\gallery_view.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|c:\\users\\david\\app_prog\\codes\\class_work\\dynamic_picture_adder\\quizview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:quizview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|c:\\users\\david\\app_prog\\codes\\class_work\\dynamic_picture_adder\\resources\\layout\\quiz_view.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:resources\\layout\\quiz_view.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,42 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "gallery_View.xml",
-              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\Resources\\layout\\gallery_View.xml",
-              "RelativeDocumentMoniker": "Resources\\layout\\gallery_View.xml",
-              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\Resources\\layout\\gallery_View.xml",
-              "RelativeToolTip": "Resources\\layout\\gallery_View.xml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-09-23T07:58:40.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "galleryView.cs",
-              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\galleryView.cs",
-              "RelativeDocumentMoniker": "galleryView.cs",
-              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\galleryView.cs",
-              "RelativeToolTip": "galleryView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T06:42:40.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "flip_View.xml",
-              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\Resources\\layout\\flip_View.xml",
-              "RelativeDocumentMoniker": "Resources\\layout\\flip_View.xml",
-              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\Resources\\layout\\flip_View.xml",
-              "RelativeToolTip": "Resources\\layout\\flip_View.xml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-09-24T06:21:06.254Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -78,33 +40,60 @@
               "RelativeDocumentMoniker": "flipView.cs",
               "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\flipView.cs",
               "RelativeToolTip": "flipView.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABIAAAAKAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T06:20:46.335Z",
+              "WhenOpened": "2024-09-25T11:42:43.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "quiz_View.xml",
+              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\Resources\\layout\\quiz_View.xml",
+              "RelativeDocumentMoniker": "Resources\\layout\\quiz_View.xml",
+              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\Resources\\layout\\quiz_View.xml",
+              "RelativeToolTip": "Resources\\layout\\quiz_View.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-25T10:46:43.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "quizView.cs",
+              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\quizView.cs",
+              "RelativeDocumentMoniker": "quizView.cs",
+              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\quizView.cs",
+              "RelativeToolTip": "quizView.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T10:42:24.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\MainActivity.cs",
+              "RelativeDocumentMoniker": "MainActivity.cs",
+              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\MainActivity.cs",
+              "RelativeToolTip": "MainActivity.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T05:48:26.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "activity_main.xml",
               "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\Resources\\layout\\activity_main.xml",
               "RelativeDocumentMoniker": "Resources\\layout\\activity_main.xml",
               "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\Resources\\layout\\activity_main.xml",
               "RelativeToolTip": "Resources\\layout\\activity_main.xml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-09-22T05:49:26.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainActivity.cs",
-              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\MainActivity.cs",
-              "RelativeDocumentMoniker": "MainActivity.cs",
-              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\MainActivity.cs",
-              "RelativeToolTip": "MainActivity.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwEIAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T05:48:26.902Z"
+              "WhenOpened": "2024-09-22T05:49:26.246Z",
+              "EditorCaption": ""
             }
           ]
         }

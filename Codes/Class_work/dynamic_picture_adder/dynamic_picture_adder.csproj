@@ -63,6 +63,7 @@
     <Compile Include="flipView.cs" />
     <Compile Include="galleryView.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="quizView.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -159,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\flip_View.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\quiz_View.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
