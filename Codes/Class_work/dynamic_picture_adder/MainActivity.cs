@@ -13,6 +13,7 @@ namespace dynamic_picture_adder
 
         Button showPics;
         RadioGroup optionGroup;
+        int amountToShow;
         byte optionPicked = 0;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -32,6 +33,7 @@ namespace dynamic_picture_adder
         {
             showPics = FindViewById<Button>(Resource.Id.show);
             optionGroup = FindViewById<RadioGroup>(Resource.Id.radioGroup1);
+
             optionGroup.CheckedChange += OptionGroup_CheckedChange;
             showPics.Click += ShowPics_Click;
         }
@@ -48,13 +50,22 @@ namespace dynamic_picture_adder
 
         private void ShowPics_Click(object sender, System.EventArgs e)
         {
+            try
+            {
+                amountToShow = int.Parse(FindViewById<EditText>(Resource.Id.amountToshow).Text);
+            }
+            catch
+            {
+                amountToShow = 0;
+            }
             var intent = new Intent(this, typeof(MainActivity));
             if (optionPicked != 0)
             {
                 if (optionPicked == 1)
                     intent = new Intent(this, typeof(galleryView));
-                //else if (optionPicked == 2)
-                //    intent = new Intent(this, typeof(flipView));
+                else if (optionPicked == 2)
+                    intent = new Intent(this, typeof(flip_Page));
+                intent.PutExtra("amountToShow", amountToShow);
                 StartActivity(intent);
             }
         }

@@ -10,7 +10,7 @@ namespace dynamic_picture_adder
     {
         public static System.Random rnd = new System.Random();
         LinearLayout toShowLay;
-        Button show,homePage;
+        Button show, homePage;
         int amountToShow;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -21,6 +21,7 @@ namespace dynamic_picture_adder
             homePage = FindViewById<Button>(Resource.Id.homePage);
             homePage.Click += HomePage_Click;
             show.Click += Show_Click;
+            amountToShow = Intent.GetIntExtra("amountToShow", 0);
         }
 
         private void HomePage_Click(object sender, System.EventArgs e)
@@ -31,14 +32,6 @@ namespace dynamic_picture_adder
 
         private void Show_Click(object sender, System.EventArgs e)
         {
-            try
-            {
-                amountToShow = int.Parse(FindViewById<EditText>(Resource.Id.amountToshow).Text);
-            }
-            catch
-            {
-                amountToShow = 0;
-            }
             Show_gallery(amountToShow);
         }
 
@@ -50,7 +43,6 @@ namespace dynamic_picture_adder
             {
                 var tempLay = new LinearLayout(this);
                 tempLay.Orientation = Orientation.Horizontal;
-                //tempLay.LayoutParameters = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MatchParent, 200,1);
                 for (int j = 0; j < 3 && amountToShow != 0; j++)
                 {
                     tempLay.AddView(generateRandomPic());
@@ -68,7 +60,6 @@ namespace dynamic_picture_adder
             char type = types[rnd.Next(0, types.Length)];
             img.SetImageResource(Resources.GetIdentifier($"img{id}{type}", "drawable", this.PackageName));
             img.LayoutParameters = new LinearLayout.LayoutParams(0, 200, 1);
-            //img.SetMaxWidth(LinearLayout.LayoutParams.MatchParent / 3 - 1);
             return img;
         }
     }

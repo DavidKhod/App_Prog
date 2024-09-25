@@ -366,3 +366,6 @@ C:\Users\David\App_Prog\Codes\Class_work\dynamic_picture_adder\obj\Debug\130\res
 C:\Users\David\App_Prog\Codes\Class_work\dynamic_picture_adder\obj\Debug\130\res\drawable\img9d.png
 C:\Users\David\App_Prog\Codes\Class_work\dynamic_picture_adder\obj\Debug\130\res\drawable\img9h.png
 C:\Users\David\App_Prog\Codes\Class_work\dynamic_picture_adder\obj\Debug\130\res\drawable\img9s.png
+C:\Users\David\App_Prog\Codes\Class_work\dynamic_picture_adder\obj\Debug\130\res\layout\flip_view.xml
+C:\Users\David\App_Prog\Codes\Class_work\dynamic_picture_adder\obj\Debug\130\android\src\crc647a97b6fac7aefb0a\flipView.java
+C:\Users\David\App_Prog\Codes\Class_work\dynamic_picture_adder\obj\Debug\130\android\src\crc647a97b6fac7aefb0a\flip_Page.java
