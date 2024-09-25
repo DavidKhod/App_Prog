@@ -3,6 +3,8 @@ using Android.Content;
 using Android.OS;
 using Android.Widget;
 using System;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace dynamic_picture_adder
 {
@@ -50,8 +52,35 @@ namespace dynamic_picture_adder
             StartActivity(intent);
         }
 
-        private void Next_Click(object sender, EventArgs e)
+
+        private async void Next_Click(object sender, EventArgs e)
         {
+            if (currentAnswerIsRight)
+            {
+                Toast.MakeText(this, "Right answer", ToastLength.Short).Show();
+            }
+            else
+            {
+                Toast.MakeText(this, "Wrong answer", ToastLength.Short).Show();
+                string correctAnswer = "";
+                switch (currentImageType)
+                {
+                    case 'c':
+                        correctAnswer = "Clubs";
+                        break;
+                    case 'h':
+                        correctAnswer = "Hearts";
+                        break;
+                    case 'd':
+                        correctAnswer = "Dimonds";
+                        break;
+                    case 's':
+                        correctAnswer = "Spades";
+                        break;
+                }
+                Toast.MakeText(this, $"Correct answer was {correctAnswer}", ToastLength.Short).Show();
+            }
+
             rightAnswers += currentAnswerIsRight ? 1 : 0;
             options.ClearCheck();
             currentAnswerIsRight = false;
