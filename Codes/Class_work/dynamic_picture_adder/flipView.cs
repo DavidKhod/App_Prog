@@ -50,8 +50,7 @@ namespace dynamic_picture_adder
 
         private void HomePage_Click(object sender, EventArgs e)
         {
-            var intent = new Intent(this, typeof(MainActivity));
-            StartActivity(intent);
+            Finish();
         }
 
         public void GenerateImageArray()

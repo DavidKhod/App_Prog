@@ -31,5 +31,6 @@ resources;obj\Debug\130\res\values\styles.xml
 ScrollView;obj\Debug\130\res\layout\gallery_view.xml
 string;obj\Debug\130\res\values\strings.xml
 style;obj\Debug\130\res\values\styles.xml
+TextView;obj\Debug\130\res\layout\activity_main.xml
 TextView;obj\Debug\130\res\layout\gallery_view.xml
 TextView;obj\Debug\130\res\layout\quiz_view.xml

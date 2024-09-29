@@ -3,8 +3,6 @@ using Android.Content;
 using Android.OS;
 using Android.Widget;
 using System;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace dynamic_picture_adder
 {
@@ -48,12 +46,23 @@ namespace dynamic_picture_adder
 
         private void Home_Click(object sender, EventArgs e)
         {
-            var intent = new Intent(this, typeof(MainActivity));
-            StartActivity(intent);
+            if (quizes >= 10)
+            {
+                var intent = new Intent();
+                intent.PutExtra("finished", true);
+                intent.PutExtra("score", rightAnswers);
+                SetResult(Result.Ok, intent);
+            }
+            else
+            {
+                var intent = new Intent();
+                SetResult(Result.Canceled, intent);
+            }
+            Finish();
         }
 
 
-        private async void Next_Click(object sender, EventArgs e)
+        private void Next_Click(object sender, EventArgs e)
         {
             if (currentAnswerIsRight)
             {
@@ -102,14 +111,6 @@ namespace dynamic_picture_adder
 
         private void Options_CheckedChange(object sender, RadioGroup.CheckedChangeEventArgs e)
         {
-            //for (int i = 0; i < 4; i++)
-            //{
-            //    if (options.GetChildAt(i).Tag.ToString()[0] == currentImageType)//it looks very bad, but I am proud of this line
-            //    {
-            //        currentAnswerIsRight = true;
-            //        break;
-            //    }
-            //}
             next.Clickable = true;
             switch (e.CheckedId)
             {

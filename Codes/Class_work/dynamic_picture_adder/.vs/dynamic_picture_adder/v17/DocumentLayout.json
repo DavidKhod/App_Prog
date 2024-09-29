@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:quizview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|c:\\users\\david\\app_prog\\codes\\class_work\\dynamic_picture_adder\\flipview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:flipview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
       "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\resources\\layout\\quiz_view.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
-      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:resources\\layout\\quiz_view.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|c:\\users\\david\\app_prog\\codes\\class_work\\dynamic_picture_adder\\galleryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:galleryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|c:\\users\\david\\app_prog\\codes\\class_work\\dynamic_picture_adder\\flipview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:flipview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\resources\\layout\\quiz_view.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:resources\\layout\\quiz_view.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "galleryView.cs",
+              "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\galleryView.cs",
+              "RelativeDocumentMoniker": "galleryView.cs",
+              "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\galleryView.cs",
+              "RelativeToolTip": "galleryView.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T05:55:18.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "flipView.cs",
               "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\flipView.cs",
               "RelativeDocumentMoniker": "flipView.cs",
               "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\flipView.cs",
               "RelativeToolTip": "flipView.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAgwCoAAAA+AAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T11:42:43.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "quiz_View.xml",
               "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\Resources\\layout\\quiz_View.xml",
               "RelativeDocumentMoniker": "Resources\\layout\\quiz_View.xml",
@@ -64,22 +81,23 @@
               "RelativeDocumentMoniker": "quizView.cs",
               "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\quizView.cs",
               "RelativeToolTip": "quizView.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAADoAAAANAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAswDkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T10:42:24.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\MainActivity.cs",
               "RelativeDocumentMoniker": "MainActivity.cs",
               "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\MainActivity.cs",
               "RelativeToolTip": "MainActivity.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEwAAAAeAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T05:48:26.902Z"
+              "WhenOpened": "2024-09-22T05:48:26.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -90,7 +108,8 @@
               "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\Resources\\layout\\activity_main.xml",
               "RelativeToolTip": "Resources\\layout\\activity_main.xml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-09-22T05:49:26.246Z"
+              "WhenOpened": "2024-09-22T05:49:26.246Z",
+              "EditorCaption": ""
             }
           ]
         }

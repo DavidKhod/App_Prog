@@ -21,15 +21,29 @@ namespace dynamic_picture_adder
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
-            init();
+            Init();
         }
+
+        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+            if (requestCode == 3 && resultCode == Result.Ok)
+            {
+                bool quizFinished = data.GetBooleanExtra("finished", false);
+                if (quizFinished)
+                {
+                    TextView scoreBox = FindViewById<TextView>(Resource.Id.scoreBox);
+                    scoreBox.Text = $"Your score from the quiz is: {data.GetIntExtra("score", 0)}/10";
+                }
+            }
+        }
+
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
-
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
-        public void init()
+        public void Init()
         {
             showPics = FindViewById<Button>(Resource.Id.show);
             optionGroup = FindViewById<RadioGroup>(Resource.Id.radioGroup1);
@@ -64,7 +78,7 @@ namespace dynamic_picture_adder
             Intent intent;
             if (optionPicked != 0)
             {
-                switch(optionPicked)
+                switch (optionPicked)
                 {
                     case 1:
                         intent = new Intent(this, typeof(galleryView));
@@ -80,7 +94,7 @@ namespace dynamic_picture_adder
                         break;
                 }
                 intent.PutExtra("amountToShow", amountToShow);
-                StartActivity(intent);
+                StartActivityForResult(intent, optionPicked);
             }
         }
     }

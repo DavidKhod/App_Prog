@@ -26,8 +26,7 @@ namespace dynamic_picture_adder
 
         private void HomePage_Click(object sender, System.EventArgs e)
         {
-            var intent = new Intent(this, typeof(MainActivity));
-            StartActivity(intent);
+            Finish();
         }
 
         private void Show_Click(object sender, System.EventArgs e)
