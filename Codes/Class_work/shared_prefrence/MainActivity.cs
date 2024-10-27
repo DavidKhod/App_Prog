@@ -34,7 +34,7 @@ namespace shared_prefrence
             logout = FindViewById<Button>(Resource.Id.logout);
             logout.Click += Logout_Click;
             introduction_msg = FindViewById<TextView>(Resource.Id.introcudtion);
-            sp = GetSharedPreferences("userData", FileCreationMode.Private);
+            sp = GetSharedPreferences(LoginActivity.spKey, FileCreationMode.Private);
             username = sp.GetString("username", "No username provided");
             password = sp.GetString("password", "None");
             saveDataChecked = sp.GetBoolean("saveDataChecked", false);
@@ -44,7 +44,11 @@ namespace shared_prefrence
         private void Logout_Click(object sender, System.EventArgs e)
         {
             if (!saveDataChecked)
-                sp.Dispose();
+            {
+                var editor = sp.Edit();
+                editor.Clear();
+                editor.Apply();
+            }
             var intent = new Intent(this, typeof(LoginActivity));
             StartActivity(intent);
             Finish();

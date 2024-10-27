@@ -2,12 +2,13 @@
 using Android.Content;
 using Android.OS;
 using Android.Widget;
-
 namespace shared_prefrence
 {
-    [Activity(Label = "LoginActivity", MainLauncher = true)]
+    [Activity(Label = "Shared_Prefrences", MainLauncher = true)]
+
     public class LoginActivity : Activity
     {
+        public const string spKey = "userData";
         Button loginBtn, signUpBtn;
         string username, password;
         CheckBox saveData;
@@ -33,7 +34,7 @@ namespace shared_prefrence
             password = FindViewById<EditText>(Resource.Id.password).Text;
             if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password))
             {
-                var sp = GetSharedPreferences("userData", FileCreationMode.Private);
+                var sp = GetSharedPreferences(spKey, FileCreationMode.Private);
                 if (username == sp.GetString("username", "None") && password == sp.GetString("password", "None"))
                 {
                     var editor = sp.Edit();
@@ -59,7 +60,7 @@ namespace shared_prefrence
             password = FindViewById<EditText>(Resource.Id.password).Text;
             if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(password))
             {
-                var sp = GetSharedPreferences("userData", FileCreationMode.Private);
+                var sp = GetSharedPreferences(spKey, FileCreationMode.Private);
                 if (username == sp.GetString("username", "None") && password == sp.GetString("password", "None"))
                 {
                     Toast.MakeText(this, "This account already exists", ToastLength.Short).Show();
