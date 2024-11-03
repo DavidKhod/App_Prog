@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Resources/menu/menu_main.xml -->   
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <item
+        android:id="@+id/action_Gallery"
+        android:title="gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</menu>

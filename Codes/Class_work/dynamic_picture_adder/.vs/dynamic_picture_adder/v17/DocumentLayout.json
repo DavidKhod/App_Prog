@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\quizview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:quizview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|c:\\users\\david\\app_prog\\codes\\class_work\\dynamic_picture_adder\\quizview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:quizview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
       "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|c:\\users\\david\\app_prog\\codes\\class_work\\dynamic_picture_adder\\galleryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\galleryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:galleryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|c:\\users\\david\\app_prog\\codes\\class_work\\dynamic_picture_adder\\flipview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\flipview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5102B42-4814-4689-97FA-90D2C3010133}|dynamic_picture_adder.csproj|solutionrelative:flipview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "galleryView.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAgwBsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T05:55:18.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T05:55:18.034Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "flipView.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAgwDMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T11:42:43.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-25T11:42:43.067Z"
             },
             {
               "$type": "Document",
@@ -75,26 +73,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "quizView.cs",
               "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\quizView.cs",
               "RelativeDocumentMoniker": "quizView.cs",
               "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\quizView.cs",
               "RelativeToolTip": "quizView.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAswDkAAAAqAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAmwDcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T10:42:24.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\MainActivity.cs",
               "RelativeDocumentMoniker": "MainActivity.cs",
               "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\MainActivity.cs",
               "RelativeToolTip": "MainActivity.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowCwAAAAJAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAcwCwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T05:48:26.902Z",
               "EditorCaption": ""
@@ -108,8 +106,7 @@
               "ToolTip": "C:\\Users\\David\\App_Prog\\Codes\\Class_work\\dynamic_picture_adder\\Resources\\layout\\activity_main.xml",
               "RelativeToolTip": "Resources\\layout\\activity_main.xml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-09-22T05:49:26.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T05:49:26.246Z"
             }
           ]
         }
