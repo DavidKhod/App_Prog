@@ -52,7 +52,7 @@
                     strGender = "Other";
                     break;
             }
-            return $"Name: {name}, Gender: {strGender}, Energy: {energy}";
+            return $"Name: {name},Gender: {strGender},Energy: {energy}";
         }
     }
 }

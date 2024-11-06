@@ -55,6 +55,6 @@
 
         public override string MakeSound() => "Making mammal sound...";
         public override string Move() => "I am walking...";
-        public override string ToString() => base.ToString() + $"Milk amount: {milk}, Leg count: {legCount}";
+        public override string ToString() => base.ToString() + $",Milk amount: {milk},Leg count: {legCount}";
     }
 }

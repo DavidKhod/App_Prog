@@ -9,7 +9,7 @@
         public override string MakeSound() => "Woof woof!";
         public override string ToString()
         {
-            return base.ToString() + $"Breed; {this.breed}";
+            return base.ToString() + $",Breed: {this.breed}";
         }
     }
 }

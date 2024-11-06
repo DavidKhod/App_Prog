@@ -60,9 +60,11 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAnimalActivity.cs" />
     <Compile Include="Animal.cs" />
     <Compile Include="Bird.cs" />
     <Compile Include="BirdActivity.cs" />
+    <Compile Include="DispDogsActivity.cs" />
     <Compile Include="Dog.cs" />
     <Compile Include="DogActivity.cs" />
     <Compile Include="Fish.cs" />
@@ -125,6 +127,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\fishPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\dispDogs_layout.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\addAnimal_layout.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
