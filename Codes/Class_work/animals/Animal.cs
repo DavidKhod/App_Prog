@@ -4,8 +4,7 @@
     {
         Male, Female, Other
     }
-
-    public abstract class Animal
+    public class Animal
     {
         public string name { get; set; }
         public readonly Gender gender;

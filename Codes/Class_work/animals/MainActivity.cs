@@ -11,7 +11,7 @@ namespace animals
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        Button dogs, birds, fishes;
+        Button dogs, birds, fishes, toFilter;
         Button dispDogs, dispBirds, dispFishes, addAnimal;
         List<Animal> animalsList;
         protected override void OnCreate(Bundle savedInstanceState)
@@ -38,16 +38,24 @@ namespace animals
             dispFishes.Click += DispFishes_Click;
             addAnimal = FindViewById<Button>(Resource.Id.addAnimal);
             addAnimal.Click += AddAnimal_Click;
-
-
-            animalsList = new List<Animal>();
-            animalsList.Add(new Dog("Cutie", Gender.Female, 0, 4, 0, "English Bulldog"));
-            animalsList.Add(new Dog("Mum", Gender.Female, 100, 4, 100, "English Bulldog"));
-            animalsList.Add(new Bird("Ostrich", Gender.Male, 100, "Grey", 1500));
-            animalsList.Add(new Fish("Georgeius the 3rd", Gender.Other, -3, 666));
-
+            toFilter = FindViewById<Button>(Resource.Id.toFilter);
+            toFilter.Click += ToFilter_Click;
+            animalsList = new List<Animal>
+            {
+                new Dog("Cutie", Gender.Female, 0, 4, 0, "English Bulldog"),
+                new Dog("Mum", Gender.Female, 100, 4, 100, "English Bulldog"),
+                new Bird("Ostrich", Gender.Male, 100, "Grey", 1500),
+                new Fish("Georgeius the 3rd", Gender.Other, -3, 666)
+            };
         }
 
+        private void ToFilter_Click(object sender, System.EventArgs e)
+        {
+            var intent = new Intent(this, typeof(FilterActivity));
+            string[] serilizedAnimals = animalsList.Select(animal => animal.ToSerilizable()).ToArray();
+            intent.PutExtra("animalsSerilized", serilizedAnimals);
+            StartActivity(intent);
+        }
 
         protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
         {
