@@ -67,13 +67,9 @@
     <Compile Include="Classes\GreetingCards.cs" />
     <Compile Include="Classes\WeddingCard.cs" />
     <Compile Include="Classes\YouthBirthdayCard.cs" />
-    <Compile Include="CreateCard.cs" />
-    <Compile Include="filterToListView.cs" />
-    <Compile Include="listViewOfCards.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ShowCards.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -112,15 +108,6 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\createCard_layout.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\showCards_layout.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\listViewOfCards_layout.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\item_draft.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -131,9 +118,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\dialogPopUo_layout.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\filtetToListView_layout.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\adultBirthdayCardBackground.png" />
